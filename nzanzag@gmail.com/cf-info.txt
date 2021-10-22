@@ -1,0 +1,52 @@
+>>>Describe AWS CloudFormation stacks<<<
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/aaf48f20-32e0-11ec-910e-125f876cdce7",
+            "StackName": "newBucket-stack",
+            "CreationTime": "2021-10-22T02:35:06.526000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "assignment23"
+                }
+            ],
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
+>>>Get the stack name<<<
+>>>Describe AWS CloudFormation stacks<<<
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/aaf48f20-32e0-11ec-910e-125f876cdce7",
+            "StackName": "newBucket-stack",
+            "CreationTime": "2021-10-22T02:35:06.526000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "assignment23"
+                }
+            ],
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
+>>>Get CloudFormation output value<<<
