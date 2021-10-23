@@ -1,0 +1,62 @@
+Describe AWS CloudFormation stacks
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:349613135469:stack/newBucket-stack/bd7fbeb0-3387-11ec-bfb0-1294df89192f",
+            "StackName": "newBucket-stack",
+            "CreationTime": "2021-10-22T22:31:03.608000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "assignment23"
+                }
+            ],
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
+Get the stack name
+newBucket-stack
+Describe AWS CloudFormation stacks
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:349613135469:stack/newBucket-stack/bd7fbeb0-3387-11ec-bfb0-1294df89192f",
+            "StackName": "newBucket-stack",
+            "CreationTime": "2021-10-22T22:31:03.608000+00:00",
+            "LastUpdatedTime": "2021-10-23T02:04:25.419000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "UPDATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "OutputKey": "BucketUrl",
+                    "OutputValue": "http://newbucket-stack-thongacadamy1-1tmf8g7dn02wc.s3-website-us-east-1.amazonaws.com",
+                    "Description": "S3 bucket website address."
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "assignment23"
+                }
+            ],
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
+Get CloudFormation output value
+http://newbucket-stack-thongacadamy1-1tmf8g7dn02wc.s3-website-us-east-1.amazonaws.com
