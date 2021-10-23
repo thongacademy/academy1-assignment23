@@ -2,9 +2,9 @@
 {
     "Stacks": [
         {
-            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/aaf48f20-32e0-11ec-910e-125f876cdce7",
+            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/c5c6a580-3390-11ec-ae6e-0e9a6c7ca763",
             "StackName": "newBucket-stack",
-            "CreationTime": "2021-10-22T02:35:06.526000+00:00",
+            "CreationTime": "2021-10-22T23:35:42.921000+00:00",
             "RollbackConfiguration": {
                 "RollbackTriggers": []
             },
@@ -23,14 +23,15 @@
         }
     ]
 }
->>>Get the stack name<<<
+>>>Get stack name<<<
+newBucket-stack
 >>>Describe AWS CloudFormation stacks<<<
 {
     "Stacks": [
         {
-            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/aaf48f20-32e0-11ec-910e-125f876cdce7",
+            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/c5c6a580-3390-11ec-ae6e-0e9a6c7ca763",
             "StackName": "newBucket-stack",
-            "CreationTime": "2021-10-22T02:35:06.526000+00:00",
+            "CreationTime": "2021-10-22T23:35:42.921000+00:00",
             "RollbackConfiguration": {
                 "RollbackTriggers": []
             },
@@ -50,3 +51,4 @@
     ]
 }
 >>>Get CloudFormation output value<<<
+assignment23
