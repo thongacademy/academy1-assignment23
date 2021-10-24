@@ -2,9 +2,9 @@
 {
     "Stacks": [
         {
-            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/c5c6a580-3390-11ec-ae6e-0e9a6c7ca763",
+            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/0761ecb0-3432-11ec-8f72-0e39f212e4e1",
             "StackName": "newBucket-stack",
-            "CreationTime": "2021-10-22T23:35:42.921000+00:00",
+            "CreationTime": "2021-10-23T18:50:02.036000+00:00",
             "RollbackConfiguration": {
                 "RollbackTriggers": []
             },
@@ -23,21 +23,28 @@
         }
     ]
 }
->>>Get stack name<<<
 newBucket-stack
 >>>Describe AWS CloudFormation stacks<<<
 {
     "Stacks": [
         {
-            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/c5c6a580-3390-11ec-ae6e-0e9a6c7ca763",
+            "StackId": "arn:aws:cloudformation:us-east-1:968801951500:stack/newBucket-stack/0761ecb0-3432-11ec-8f72-0e39f212e4e1",
             "StackName": "newBucket-stack",
-            "CreationTime": "2021-10-22T23:35:42.921000+00:00",
+            "CreationTime": "2021-10-23T18:50:02.036000+00:00",
+            "LastUpdatedTime": "2021-10-24T21:42:05.522000+00:00",
             "RollbackConfiguration": {
                 "RollbackTriggers": []
             },
-            "StackStatus": "CREATE_COMPLETE",
+            "StackStatus": "UPDATE_COMPLETE",
             "DisableRollback": false,
             "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "OutputKey": "BucketUrl",
+                    "OutputValue": "http://newbucket-stack-assignment23-vlovybo48cu9.s3-website-us-east-1.amazonaws.com",
+                    "Description": "S3 bucket website address."
+                }
+            ],
             "Tags": [
                 {
                     "Key": "Name",
@@ -51,4 +58,4 @@ newBucket-stack
     ]
 }
 >>>Get CloudFormation output value<<<
-assignment23
+http://newbucket-stack-assignment23-vlovybo48cu9.s3-website-us-east-1.amazonaws.com
