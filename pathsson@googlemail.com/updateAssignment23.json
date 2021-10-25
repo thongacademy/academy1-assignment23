@@ -1,0 +1,20 @@
+{
+ "AWSTemplateFormatVersion": "2010-09-09",
+ "Resources" : {
+ "assignment23" : {
+ "Type" : "AWS::S3::Bucket",
+ "Properties" : {
+ "Tags" : [{ "Key" : "Environment", "Value" : "Test" }]
+ },
+ "Metadata" : {
+ "Comment" : "Real bucket name will include assignment23 plus random characters"
+   }
+  }
+ },
+"Outputs" : {
+"BucketUrl" : {
+ "Value" : {"Fn::GetAtt": ["assignment23","WebsiteURL"]},
+ "Description": "S3 bucket website address."
+  }
+ }
+}

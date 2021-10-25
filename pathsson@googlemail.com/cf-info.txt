@@ -1,0 +1,65 @@
++++Describe AWS CloudFormation stacks+++
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:192775202819:stack/newBucket-stack/cf4d5930-3563-11ec-a247-0ebf8c9e23e3",
+            "StackName": "newBucket-stack",
+            "CreationTime": "2021-10-25T07:18:53.877000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "assignment23"
+                }
+            ],
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
++++Get the stack name+++
+
+newBucket-stack
++++Describe AWS CloudFormation stacks+++
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:192775202819:stack/newBucket-stack/cf4d5930-3563-11ec-a247-0ebf8c9e23e3",
+            "StackName": "newBucket-stack",
+            "CreationTime": "2021-10-25T07:18:53.877000+00:00",
+            "LastUpdatedTime": "2021-10-25T11:39:37.841000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "UPDATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "OutputKey": "BucketUrl",
+                    "OutputValue": "http://newbucket-stack-assignment23-1poi7ig1zjot7.s3-website-us-east-1.amazonaws.com",
+                    "Description": "S3 bucket website address."
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "assignment23"
+                }
+            ],
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
++++Get CloudFormation output value+++
+
+
+http://newbucket-stack-assignment23-1poi7ig1zjot7.s3-website-us-east-1.amazonaws.com
