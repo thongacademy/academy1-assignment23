@@ -1,0 +1,61 @@
+>>>Describe AWS CloudFormation stacks<<<
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:736766666330:stack/NewBucket-stack/8f8ab710-4ff4-11ec-9f74-128c6aa54d31",
+            "StackName": "NewBucket-stack",
+            "CreationTime": "2021-11-28T02:40:34.195000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "CREATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "assignment23"
+                }
+            ],
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
+>>> Get the stack name<<<
+null
+>>>Describe AWS CloudFormation stacks<<<
+{
+    "Stacks": [
+        {
+            "StackId": "arn:aws:cloudformation:us-east-1:736766666330:stack/NewBucket-stack/8f8ab710-4ff4-11ec-9f74-128c6aa54d31",
+            "StackName": "NewBucket-stack",
+            "CreationTime": "2021-11-28T02:40:34.195000+00:00",
+            "LastUpdatedTime": "2021-11-28T03:09:49.556000+00:00",
+            "RollbackConfiguration": {
+                "RollbackTriggers": []
+            },
+            "StackStatus": "UPDATE_COMPLETE",
+            "DisableRollback": false,
+            "NotificationARNs": [],
+            "Outputs": [
+                {
+                    "OutputKey": "BucketUrl",
+                    "OutputValue": "http://newbucket-stack-assignment23-1c8jseelfz5ao.s3-website-us-east-1.amazonaws.com",
+                    "Description": "S3 bucket website address."
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "assignment23"
+                }
+            ],
+            "DriftInformation": {
+                "StackDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
+>>>Get CloudFormation output value<<<
